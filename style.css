@@ -3,11 +3,6 @@ html{
     background-size: 200vh;
 }
 
-img{
-    scale: 2;
-    opacity: 0.7;
-}
-
 .top{
     background-color: transparent;
     border-radius: 6px;
@@ -18,6 +13,11 @@ img{
     justify-content: space-between;
     align-items: center;
     font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+    color: white;
+}
+
+a{
+    color: inherit;
 }
 
 nav .listc {
@@ -25,6 +25,7 @@ nav .listc {
     margin: 0;
     padding: 0;
     display: flex;
+    color: white;
 }
 
 nav .listc li {
@@ -67,7 +68,7 @@ nav .listc li {
 }
 
 .flog{
-    color: #1c1c1c;
+    color: white;
     font-size: 23px;
     font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
     line-height: 1.3333;
@@ -78,7 +79,7 @@ nav .listc li {
 }
 
 .ir{
-    color: #1c1c1c;
+    color: white;
     font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
     line-height: 1.3333;
     font-weight: 400;
@@ -98,19 +99,20 @@ nav .listc li {
     position: absolute;
     left: 9%;
     top: 38%;
+    color: white;
 }
 
 .email:focus,
 .email:active {
     border-width: 2px;
     outline: none !important;
-    border-color: #246dff;
+    border-color: #1ecdd6;
 }
 
 .email::placeholder{
     font-size: 16px;
     padding-left: 11px;
-    color: #5c5c5c;
+    color: #ffffff;
 }
 
 
@@ -121,7 +123,7 @@ nav .listc li {
     position: absolute;
     left: 11.5%;
     top: 51%;
-    color: rgb(26,115,232);
+    color: #1ecdd6;
     font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
     font-weight: bold;
     cursor: pointer;
@@ -133,14 +135,14 @@ nav .listc li {
     position: absolute;
     left: 5.7%;
     top: 59%;
-    color: #707070;
+    color: #ffffff;
     font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
     line-height: 1.3333;
     font-weight: 400;
 }
 
 .saib{
-    color: rgb(26,115,232);
+    color: #1ecdd6;
     line-height: 2;
     font-weight: 200;
     cursor: pointer;
@@ -153,7 +155,7 @@ nav .listc li {
     position: absolute;
     left: 12%;
     top: 81%;
-    color: rgb(26,115,232);
+    color: #1ecdd6;
     font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
     font-weight: bold;
     cursor: pointer;
@@ -169,15 +171,16 @@ nav .listc li {
     font-family: "Google Sans",Roboto,Arial,sans-serif;
     font-size: .875rem;
     font-weight: 600;
-    background-color: rgb(26,115,232);
+    background-color: #1ecdd6;
     border-style: solid;
     border-radius: 4px;
-    border-color: rgb(26,115,232);
+    border-color: #1ecdd6;
     cursor: pointer;
 }
 
 .ent:hover{
-  background-color: rgb(21, 100, 203)
+  background-color: rgb(21, 100, 203);
+  border-color: rgb(21, 100, 203);
 }
 
 .lang{
